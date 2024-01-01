@@ -14,5 +14,4 @@ UPDATE country SET HeadOfState = 'Donald Trump' WHERE Name= 'United States';
 SELECT Name, Population FROM city ORDER BY Population DESC LIMIT 1;
 SELECT Name, Population FROM city ORDER BY Population  LIMIT 1;
 SELECT COUNT(*) AS 'liczba rekordów' FROM city;
-SELECT * FROM city;
 SELECT  count(country.Name) AS 'Liczba miast w Chinach'  FROM country RIGHT JOIN city ON country.Code=city.CountryCode WHERE country.Name = 'China';
