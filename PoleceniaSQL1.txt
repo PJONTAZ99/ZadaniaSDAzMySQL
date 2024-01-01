@@ -1,0 +1,32 @@
+INSERT
+Napisz zapytanie SQL odpowiedzialne za wprowadzanie rekordu z wybranymi przez Ciebie wartościami do tabeli movies. Wartość powinna być wprowadzona dla każdej z kolumn. Przed wykonaniem zadania utwórz tabelę, korzystając z poniższego polecenia:
+sql
+CREATE TABLE movies(movie_id varchar(36), movie_name varchar(40), movie_type varchar(30), movie_rating tinyint);
+Napisz zapytanie SQL odpowiedzialne za wprowadzanie nowego rekordu to tabeli movies. Wprowadź wartości tylko dla kolumn: movie_id i movie_name.
+
+Napisz zapytanie SQL odpowiedzialne za wprowadzanie nowego rekordu do tabeli. Jako wartość kolumny movie_type wprowadź wartość NULL.
+
+Napisz zapytanie SQL odpowiedzialne za wprowadzenie jednorazowo 3 rekordów do tabeli movies.
+
+Napisz zapytanie SQL odpowiedzialne za skopiowanie rekordów z tabeli movies do nowo stworzonej tabeli movies_new.
+
+UPDATE
+Napisz zapytanie SQL odpowiedzialne za modyfikację kolumny movie_name w tabeli movies tak, by domyślnie zawierała ona tekst To be done dla każdego filmu w bazie danych.
+
+Napisz zapytanie SQL odpowiedzialne za modyfikację wartości kolumny movie_rating w tabeli movies na wartość 8 dla tych rekordów, dla których movie_type jest równy Anime.
+
+Napisz zapytanie SQL odpowiedzialne za modyfikację wartości kolumny movie_name tabeli movies na tekst Only for adults dla tych rekordów, dla których movie_type jest równy Horror i dla których movie_raring jest równy bądź większy niż 18.
+
+DELETE
+Napisz zapytanie SQL odpowiedzialne za usuwanie wszystkich rekordów z tabeli movies.
+
+Napisz zapytanie SQL odpowiedzialne za usuwanie wszystkich rekordów z tabeli movies, dla których movie_type jest równy Action.
+
+Napisz zapytanie SQL odpowiedzialne za usuwanie rekordów, dla których movie_rating jest mniejszy 15.
+
+SELECT
+Napisz zapytanie SQL odpowiedzialne za zwracanie wszystkich rekordów z tabeli movies.
+
+Napisz zapytanie SQL odpowiedzialne za wyświetlanie informacji takich jak movie_rating, movie_name dla każdego rekordu z tabeli movies.
+
+Napisz zapytanie SQL odpowiedzialne za wyświetlanie rekordów z tabeli movies, dla których movie_rating jest mniejszy niż 14.

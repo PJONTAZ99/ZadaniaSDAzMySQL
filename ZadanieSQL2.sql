@@ -1,0 +1,18 @@
+SELECT ID,Name,Population FROM city LIMIT 10;
+SELECT ID,Name,Population FROM city WHERE ID >30 LIMIT 10;
+SELECT Name,Population FROM city WHERE Population > 2000000;
+SELECT Name FROM city WHERE Name LIKE ('Be%');
+SELECT Name,Population FROM city WHERE Population BETWEEN 500000 AND 1000000;
+SELECT Name FROM CITY ORDER BY Name;
+SELECT Name, Population FROM country WHERE Population IN ( SELECT min(Population) FROM country);
+SELECT Name, Population FROM city WHERE Population IN ( SELECT max(Population) FROM city);
+SELECT country.Region,country.Code, countrylanguage.Language FROM country RIGHT JOIN countrylanguage ON  country.Code=countrylanguage.CountryCode WHERE country.Region='Caribbean';
+SELECT country.Name, city.Name AS 'Capital' FROM country RIGHT JOIN city ON country.Capital= city.ID  WHERE country.Name= 'Spain';
+SELECT Name,LifeExpectancy FROM country WHERE LifeExpectancy IN(SELECT max(LifeExpectancy)FROM country);
+SELECT Name FROM country WHERE Continent = 'Europe';
+UPDATE country SET HeadOfState = 'Donald Trump' WHERE Name= 'United States';
+SELECT Name, Population FROM city ORDER BY Population DESC LIMIT 1;
+SELECT Name, Population FROM city ORDER BY Population  LIMIT 1;
+SELECT COUNT(*) AS 'liczba rekordów' FROM city;
+SELECT * FROM city;
+SELECT  count(country.Name) AS 'Liczba miast w Chinach'  FROM country RIGHT JOIN city ON country.Code=city.CountryCode WHERE country.Name = 'China';

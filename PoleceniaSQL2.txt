@@ -1,0 +1,33 @@
+Napisz zapytanie SQL odpowiedzialne za wyświetlanie kolumn Id, Name, Population z tabeli city i ogranicz wyniki tylko do pierwszych 10 wierszy.
+
+Napisz zapytanie SQL odpowiedzialne za wyświetlanie kolumn Id, Name, Population z tabeli city i ogranicz wyniki tylko do wierszy 31-40.
+
+Napisz zapytanie SQL odpowiedzialne za znalezienie tylko tych miast z tabeli city, których populacja jest większa niż 2000000.
+
+Napisz zapytanie SQL odpowiedzialne za odnalezienie wszystkich nazw miast z tabeli city, których nazwa zaczyna się od prefiksu Be.
+
+Napisz zapytanie SQL odpowiedzialne za odnalezienie tylko tych miast z tabeli city, których populacja wynosi od 500000 do 1000000.
+
+Napisz zapytania SQL odpowiedzialne za wyświetlenie wszystkich miast z tabeli city posortowanych wg. kolumny Name w porządku rosnącym.
+
+Napisz zapytania SQL odpowiedzialne za znalezienie kraju o najniższej populacji w tabeli country.
+
+Napisz zapytanie SQL odpowiedzialne za znalezienie miasta o największej populacji w tabeli city.
+
+Napisz zapytanie SQL odpowiedzialne za wyświetlenie listy wszystkich języków używanych w regionie Caribbean.
+
+Napisz zapytanie SQL odpowiedzialne za wyszukanie stolicy Spain (ESP).
+
+Napisz zapytanie SQL odpowiedzialne za znalezienie państwa z najwyższą oczekiwaną długością życia.
+
+Napisz zapytanie SQL odpowiedzialne za znalezienie wszystkich miast z kontynentu Europe.
+
+Napisz zapytanie SQL odpowiedzialne za aktualizacje prezydenta United States po wyborach prezydenckich w 2015.
+
+Napisz zapytanie SQL odpowiedzialne za wyszukanie najbardziej zaludnionego miasta w tabeli city.
+
+Napisz zapytanie SQL odpowiedzialne za wyszukanie najmniej zaludnionego miasta w tabeli city.
+
+Napisz zapytanie SQL odpowiedzialne za obliczenie liczby rekordów w tabeli city.
+
+Napisz zapytanie SQL odpowiedzialne za pobranie liczby miast w China z tabeli city.
